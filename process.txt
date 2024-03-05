@@ -1,0 +1,12 @@
+process : an instance of a program(i.e python interpreter)
+
+1. **Definition**: A process is an independent, dynamic program in execution within a computer system.
+2. **Program Instance**: It represents a running instance of a computer program that includes both the program code and its current state.
+3. **Memory Space**: Each process has its own memory space, containing the program's instructions and data specific to that instance.
+4. **Resources**: It includes system resources such as CPU time, memory, I/O devices, and files.
+5. **Isolation**: Processes are isolated from each other, meaning they cannot directly access each other's memory or resources.
+6. **Multitasking**: Operating systems use processes for multitasking, allowing multiple programs to run concurrently.
+7. **Process Control Block (PCB)**: The operating system maintains a data structure called the Process Control Block to manage information about each process.
+8. **Lifecycle**: A process goes through various states such as creation, ready, running, waiting, and termination during its lifecycle.
+9. **Concurrency**: Processes enable concurrent execution, allowing multiple tasks to progress simultaneously.
+10. **Interprocess Communication (IPC)**: Processes may communicate with each other through IPC mechanisms like shared memory, message passing, or sockets.

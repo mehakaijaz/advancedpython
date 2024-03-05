@@ -1,0 +1,14 @@
+Copying Basics:
+
+Copying refers to creating a duplicate of an object to work with, without modifying the original.
+Python provides two main methods for copying: shallow copy and deep copy.
+Shallow Copy:
+
+Shallow copy creates a new object but doesn't create copies of nested objects.
+It copies the top-level structure and references of the original object.
+The copy module's copy() function or object-specific methods like list.copy() can be used for shallow copying.
+Deep Copy:
+
+Deep copy creates a new object and recursively copies all objects referenced by the original.
+It ensures that nested objects are also duplicated, creating an independent copy.
+The copy module's deepcopy() function is used for deep copying.

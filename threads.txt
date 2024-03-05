@@ -1,0 +1,10 @@
+1. **Definition**: A thread is the smallest unit of execution within a process; it shares the same resources but runs independently.
+2. **Lightweight Execution**: Threads are lighter weight than processes, as they share the same memory space and resources of the parent process.
+3. **Concurrency within a Process**: Threads within a process can run concurrently, allowing parallel execution of different tasks.
+4. **Thread of Execution**: Each thread has its own sequence of program instructions, program counter, and register set.
+5. **Shared Resources**: Threads within a process share the same resources, such as memory, files, and open network connections.
+6. **Communication**: Threads within a process can communicate more easily than processes since they share the same memory space.
+7. **Thread States**: Threads can be in states like running, ready, or blocked, and the operating system manages their execution.
+8. **Thread-Specific Data (TSD)**: Threads can have their own local data, but they also share global data with other threads in the same process.
+9. **Parallelism**: Threads are used to achieve parallelism in applications, taking advantage of multiple CPU cores.
+10. **Synchronization**: Threads may need synchronization mechanisms like locks to coordinate access to shared resources and prevent conflicts.
